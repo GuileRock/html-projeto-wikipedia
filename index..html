@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Logo da empresa" width="200">
+            </div>
+        </div>
+    </header>
+
+    <nav aria-label="Barra de Navegação">
+        <div class="container">
+            <ul>
+                <li><a href="#sidebar">Ir para a Sidebar</a></li>
+                <li><a href="#content">Ir para o Conteúdo Principal</a></li>
+                <li><a href="#anchors">Ir para os Âncoras</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <aside id="sidebar" aria-labelledby="sidebar-title">
+            <div class="container">
+                <h2 id="sidebar-title">Título da Sidebar</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#">Link 1</a></li>
+                        <!-- Adicione mais links conforme necessário -->
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+
+        <article id="content">
+            <div class="container">
+                <section id="historia">
+                    <h2>História da Matemática</h2>
+                    <p>A história da matemática abrange milhares de anos de desenvolvimento...</p>
+                    <!-- Conteúdo sobre a história da matemática -->
+                </section>
+
+                <section id="areas">
+                    <h2>Áreas de Estudo</h2>
+                    <p>A matemática moderna é dividida em diversas áreas de estudo, incluindo...</p>
+                    <!-- Conteúdo sobre as áreas de estudo da matemática -->
+                </section>
+
+                <section id="contribuicoes">
+                    <h2>Contribuições Importantes</h2>
+                    <p>Muitos matemáticos fizeram contribuições significativas para o campo...</p>
+                    <!-- Conteúdo sobre as contribuições importantes na matemática -->
+                </section>
+            </div>
+        </article>
+
+        <aside id="anchors" aria-labelledby="anchors-title">
+            <div class="container">
+                <h2 id="anchors-title">Neste Artigo</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#historia">História da Matemática</a></li>
+                        <li><a href="#areas">Áreas de Estudo</a></li>
+                        <li><a href="#contribuicoes">Contribuições Importantes</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Nome da Empresa</p>
+        </div>
+    </footer>
+
+</body>
+</html>
